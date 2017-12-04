@@ -14,7 +14,9 @@ class Funcionario{
 		string especialidade;
 
 	public:
-		Funcionario(int _id, string _nome, string _cpf, short _idade, short _tipo 
+		Funcionario(){}
+		~Funcionario() = default;
+		Funcionario(int _id, string _nome, string _cpf, short _idade, short _tipo, 
 			char _fator, string _especialidade): id(_id), nome(_nome), cpf(_cpf), 
 		idade(_idade), tipo_sanguineo(_tipo), fatorRH(_fator), especialidade(_especialidade){}
 		
@@ -36,11 +38,11 @@ class Funcionario{
 };
 
 class Veterinario : public Funcionario{
-
+	public: Veterinario(){}
 };
 
 class Tratador : public	Funcionario{
-
+	public: Tratador(){}
 };
 
 #endif

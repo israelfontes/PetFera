@@ -10,7 +10,7 @@ string Animal::getCientifico(void){ return cientifico; }
 
 char Animal::getSexo(void){ return sexo; }
 
-float Animal::getTamanho(void){ return getTamanho; }
+float Animal::getTamanho(void){ return tamanho; }
 
 string Animal::getDieta(void){ return dieta; }
 
@@ -26,7 +26,7 @@ void Animal::setClasse( string _classe ){ classe = _classe; }
 
 void Animal::setNome( string _nome ){ nome = _nome; }
 
-void Animal::setCientifco( string _cientifico ){ cientifico = _cientifico; }
+void Animal::setCientifico( string _cientifico ){ cientifico = _cientifico; }
 
 void Animal::setSexo( char _sexo ){ sexo = _sexo; }
 
@@ -88,7 +88,7 @@ string Nativo::getUfOrigem(void){ return uf_origem; }
 
 string Nativo::getAutorizacao(void){ return autorizacao; }
 
-void Nativo::setUfOirigem( string _uf ){ uf_origem = _uf; }
+void Nativo::setUfOrigem( string _uf ){ uf_origem = _uf; }
 
 void Nativo::setAutorizacao( string _autorizacao ){ autorizacao = _autorizacao; }
 
