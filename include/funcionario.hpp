@@ -1,5 +1,7 @@
 #ifndef _FUNCIONARIO_HPP_
 #include <string>
+#include <fstream>
+#include <iostream>
 
 using std::string;
 
@@ -35,6 +37,8 @@ class Funcionario{
 		void setTipoSanguineo( short _tipo );
 		void setFatorRH( char _fator );
 		void setEspecialidade( string _especialidade );		
+		friend std::ostream& operator<< (std::ostream &o, Funcionario &funcionario);
+		friend std::istream& operator>> (std::istream &i, Funcionario &funcionario);
 };
 
 class Veterinario : public Funcionario{

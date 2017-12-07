@@ -1,7 +1,4 @@
 #ifndef _ANIMAL_HPP_
-#include <string>
-#include <fstream>
-#include <iostream>
 
 #include "funcionario.hpp"
 

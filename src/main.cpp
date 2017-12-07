@@ -217,6 +217,10 @@ map<int,Veterinario> map_veterinario;
 
 int main(void){
 	Anfibio anfibio;
+	Veterinario vet;
+	cin >> vet;
+	cout << vet;
+
 	cin >> anfibio;
 	cout << anfibio;
 	fstream file_animals("data/out.csv", ios::out | ios::in);
