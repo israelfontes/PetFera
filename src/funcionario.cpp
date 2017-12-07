@@ -1,18 +1,18 @@
 #include "funcionario.hpp"
 
-int Funcionario::getId(void){ return id; }
+int Funcionario::getId(void) const{ return id; }
 
-string Funcionario::getNome(void){ return nome; }
+string Funcionario::getNome(void) const{ return nome; }
 
-string Funcionario::getCpf(void){ return cpf; }
+string Funcionario::getCpf(void) const{ return cpf; }
 
-short Funcionario::getIdade(void){ return idade; }
+short Funcionario::getIdade(void) const{ return idade; }
 
-short Funcionario::getTipoSanguineo(void){ return tipo_sanguineo; }
+short Funcionario::getTipoSanguineo(void) const{ return tipo_sanguineo; }
 
-char Funcionario::getFatorRH(void){ return fatorRH; }
+char Funcionario::getFatorRH(void) const{ return fatorRH; }
 
-string Funcionario::getEspecialidade(void){ return especialidade; }
+string Funcionario::getEspecialidade(void) const{ return especialidade; }
 
 void Funcionario::setId( int _id ){ id = _id;}
 
@@ -26,4 +26,4 @@ void Funcionario::setTipoSanguineo( short _tipo ){ tipo_sanguineo = _tipo; }
 
 void Funcionario::setFatorRH( char _fator ){ fatorRH = _fator; }
 
-void Funcionario::setEspecialidade( string _especialidade ){ especialidade = _especialidade; }	
+void Funcionario::setEspecialidade( string _especialidade ){ especialidade = _especialidade; }

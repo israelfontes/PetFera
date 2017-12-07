@@ -20,13 +20,13 @@ class Funcionario{
 			char _fator, string _especialidade): id(_id), nome(_nome), cpf(_cpf), 
 		idade(_idade), tipo_sanguineo(_tipo), fatorRH(_fator), especialidade(_especialidade){}
 		
-		int getId(void);
-		string getNome(void);
-		string getCpf(void);
-		short getIdade(void);
-		short getTipoSanguineo(void);
-		char getFatorRH(void);
-		string getEspecialidade(void);
+		int getId(void) const;
+		string getNome(void) const;
+		string getCpf(void) const;
+		short getIdade(void) const;
+		short getTipoSanguineo(void) const;
+		char getFatorRH(void) const;
+		string getEspecialidade(void) const;
 
 		void setId( int _id );
 		void setNome( string _nome );
