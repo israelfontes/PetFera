@@ -10,6 +10,7 @@
 
 ## Resumo
 Este projeto consiste na implementação de uma aplicação para administração de PETshop. O sistema ainda não está pronto.
+Obs: Desculpe pela vergonha que está esse programa, professor.
 
 ## Para compilar
 Baixe o repositório para o seu computador a partir do:
