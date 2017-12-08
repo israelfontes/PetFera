@@ -13,7 +13,7 @@ CC = g++
 
 CPPFLAGS = -Wall -pedantic -ansi -std=c++11
 
-OBJS = $(OBJ_DIR)/funcionario.o $(OBJ_DIR)/animal.o  $(OBJ_DIR)/main.o 
+OBJS = $(OBJ_DIR)/funcionario.o $(OBJ_DIR)/animal.o $(OBJ_DIR)/main.o   
 
 main: clean dir $(OBJS)
 	$(CC) $(CPPFLAGS) -o $(BIN_DIR)/$@ $(OBJS) 
